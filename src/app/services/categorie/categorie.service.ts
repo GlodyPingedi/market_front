@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Categorie } from '../../models/categories';
+import { Categorie } from '../../models/categorie';
 import { HttpClient } from '@angular/common/http';
 import { catchError, Observable, tap, throwError } from 'rxjs';
 

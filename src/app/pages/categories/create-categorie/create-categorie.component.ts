@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Categorie } from '../../../models/categories';
+import { Categorie } from '../../../models/categorie';
 import { Router } from '@angular/router';
 import { CategorieService } from '../../../services/categorie/categorie.service';
 import { HttpClientModule } from '@angular/common/http';

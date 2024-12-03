@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Categorie } from '../../../models/categories';
+import { Categorie } from '../../../models/categorie';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { CategorieService } from '../../../services/categorie/categorie.service';
@@ -40,9 +40,7 @@ export class IndexCategorieComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    if (this.subscription) {
-      this.subscription.unsubscribe();
-    }
+    this.subscription.unsubscribe();
   }
 
   goToCreatePage() {
